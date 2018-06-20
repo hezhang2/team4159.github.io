@@ -15,6 +15,4 @@ Our mission is to preserve and pass down knowledge to future generation of Cardi
 
 This website is still under construction.
 
-\-B
-
 {% include links.html %}

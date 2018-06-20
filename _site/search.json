@@ -72,6 +72,17 @@
 
 
 {
+"title": "Introduction to Control Systems",
+"tags": "",
+"keywords": "programming, java",
+"url": "main_control_intro.html",
+"summary": ""
+}
+,
+
+
+
+{
 "title": "Electronics Introduction",
 "tags": "",
 "keywords": "electronics",
@@ -105,7 +116,7 @@
 
 
 {
-"title": "Git and Version Control Basics",
+"title": "Git and Open Source",
 "tags": "",
 "keywords": "git, version control, basics",
 "url": "main_git.html",
@@ -127,10 +138,54 @@
 
 
 {
+"title": "Machine Learning",
+"tags": "",
+"keywords": "programming, java",
+"url": "main_ml.html",
+"summary": ""
+}
+,
+
+
+
+{
+"title": "Motion Profiling",
+"tags": "",
+"keywords": "programming, java",
+"url": "main_mp.html",
+"summary": ""
+}
+,
+
+
+
+{
 "title": "Object Oriented Programming",
 "tags": "",
 "keywords": "oop, programming",
 "url": "main_oop.html",
+"summary": "test"
+}
+,
+
+
+
+{
+"title": "PID Control",
+"tags": "",
+"keywords": "programming, java",
+"url": "main_pid.html",
+"summary": ""
+}
+,
+
+
+
+{
+"title": "Pneumatics",
+"tags": "",
+"keywords": "git, version control, basics",
+"url": "main_pneumatics.html",
 "summary": "test"
 }
 ,
@@ -153,6 +208,17 @@
 "tags": "",
 "keywords": "programming, java",
 "url": "main_sensors.html",
+"summary": "test"
+}
+,
+
+
+
+{
+"title": "Computer Vision",
+"tags": "",
+"keywords": "computer vision",
+"url": "main_vision.html",
 "summary": "test"
 }
 ,

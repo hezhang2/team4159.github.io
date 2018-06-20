@@ -73,12 +73,20 @@ entries:
       url: /main_frc_electronics.html
       output: web, pdf
 
-    - title: Wiring and Good Practices
+    - title: Sensors
+      url: /main_sensors.html
+      output: web, pdf
+
+    - title: Actuators
+      url: /main_actuators.html
+      output: web, pdf
+
+    - title: Wiring
       url: /main_wiring.html
       output: web, pdf
 
-    - title: Sensors and Custom Electronics
-      url: /main_sensors.html
+    - title: Pneumatics
+      url: /main_pneumatics.html
       output: web, pdf
 
   - title: Control Systems

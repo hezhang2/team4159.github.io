@@ -6,3 +6,7 @@ sidebar: main_sidebar
 permalink: main_wpilib.html
 folder: main
 ---
+
+FRC Programming Done Right is a comprehensive resource on getting started with using WPILib and more. There are code examples for Java, along with C++ and Python.
+
+<http://frc-pdr.readthedocs.io/en/latest/index.html>

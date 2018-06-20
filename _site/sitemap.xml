@@ -52,6 +52,12 @@
   
   
   <url>
+    <loc>http://localhost:4000/main_control_intro.html</loc>
+  </url>
+  
+  
+  
+  <url>
     <loc>http://localhost:4000/main_electronics_intro.html</loc>
   </url>
   
@@ -82,7 +88,31 @@
   
   
   <url>
+    <loc>http://localhost:4000/main_ml.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/main_mp.html</loc>
+  </url>
+  
+  
+  
+  <url>
     <loc>http://localhost:4000/main_oop.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/main_pid.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/main_pneumatics.html</loc>
   </url>
   
   
@@ -95,6 +125,12 @@
   
   <url>
     <loc>http://localhost:4000/main_sensors.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/main_vision.html</loc>
   </url>
   
   
