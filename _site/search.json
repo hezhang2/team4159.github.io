@@ -87,18 +87,18 @@
 "tags": "",
 "keywords": "electronics, frc",
 "url": "main_frc_electronics.html",
-"summary": "test"
+"summary": ""
 }
 ,
 
 
 
 {
-"title": "Programming Introduction",
+"title": "Introduction to Programming",
 "tags": "",
 "keywords": "programming, general, intro",
 "url": "main_general_programming_intro.html",
-"summary": "test"
+"summary": ""
 }
 ,
 
@@ -116,11 +116,11 @@
 
 
 {
-"title": "Java Guide",
+"title": "Learning Java",
 "tags": "",
 "keywords": "programming, java",
 "url": "main_java.html",
-"summary": "test"
+"summary": ""
 }
 ,
 
@@ -210,24 +210,6 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 {
 "title": "",
 "tags": "",
@@ -242,31 +224,11 @@
 
 
 {
-"title": "Sample post",
-"tags": "newsgetting_started",
+"title": "First post!",
+"tags": "blog",
 "keywords": "",
-"url": "samplepost.html",
-"summary": "This is some summary frontmatter for my sample post."
-}
-,
-
-
-{
-"title": "Welcome to Jekyll!",
-"tags": "news",
-"keywords": "",
-"url": "myupdate.html",
-"summary": ""
-}
-,
-
-
-{
-"title": "Test post from last year",
-"tags": "news",
-"keywords": "",
-"url": "test-post-from-last-year.html",
-"summary": ""
+"url": "first-post.html",
+"summary": "First post, oh my!"
 }
 
 
