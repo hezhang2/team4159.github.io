@@ -1,0 +1,46 @@
+# This is your sidebar TOC. The sidebar code loops through sections here and provides the appropriate formatting.
+
+entries:
+- title: sidebar
+  product: Projects
+  folders:
+  - title:
+    output: pdf
+    type: frontmatter
+    folderitems:
+    - title:
+      url: /titlepage.html
+      output: pdf
+      type: frontmatter
+    - title:
+      url: /tocpage.html
+      output: pdf
+      type: frontmatter
+
+  - title: Robots
+    output: web, pdf
+    folderitems:
+
+    - title: 2018 - Rafiki
+      url: /projects_rafiki.html
+      output: web, pdf
+
+    - title: 2017 - Red Dwarf (Offseason)
+      url: /projects_red_dwarf.html
+      output: web, pdf
+
+  - title: Robot Software
+    output: web, pdf
+    folderitems:
+
+    - title: CardinalDash
+      url: /projects_dash.html
+      output: web, pdf
+
+  - title: Mobile/Web Apps
+    output: web, pdf
+    folderitems:
+
+    - title: CardinalScout 2018
+      url: /projects_cs_2018.html
+      output: web, pdf

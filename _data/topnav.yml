@@ -3,8 +3,10 @@
 topnav:
 - title: Topnav
   items:
+    - title: Projects
+      url: /projects
     - title: Blog
-      url: /news
+      url: /blog
     - title: Git
       external_url: https://github.com/team4159/team4159.github.io
 

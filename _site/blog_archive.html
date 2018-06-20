@@ -4,9 +4,9 @@
     <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="This is some summary frontmatter for my sample post.">
-<meta name="keywords" content="newsgetting_started,  ">
-<title>Sample post | CardinalBotics Programming Portal</title>
+<meta name="description" content="">
+<meta name="keywords" content=" news, blog, updates, release notes, announcements">
+<title>Blog | CardinalBotics Programming Portal</title>
 <link rel="stylesheet" href="css/syntax.css">
 
 <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -123,7 +123,7 @@
                 
                 
                 
-                <li><a href="blog">Blog</a></li>
+                <li class="active"><a href="blog">Blog</a></li>
                 
                 
                 
@@ -139,7 +139,7 @@
 
 
 
-  <a class="email" title="Submit feedback" href="#" onclick="javascript:window.location='mailto:pr@team4159.org?subject=CardinalBotics Programming Portal feedback&body=I have some feedback about the Sample post page: ' + window.location.href;"><i class="fa fa-envelope-o"></i> Email</a>
+  <a class="email" title="Submit feedback" href="#" onclick="javascript:window.location='mailto:pr@team4159.org?subject=CardinalBotics Programming Portal feedback&body=I have some feedback about the Blog page: ' + window.location.href;"><i class="fa fa-envelope-o"></i> Email</a>
 
 </li>
 
@@ -157,7 +157,7 @@
                                 searchInput: document.getElementById('search-input'),
                                 resultsContainer: document.getElementById('results-container'),
                                 dataSource: 'search.json',
-                                searchResultTemplate: '<li><a href="{url}" title="Sample post">{title}</a></li>',
+                                searchResultTemplate: '<li><a href="{url}" title="Blog">{title}</a></li>',
                     noResultsText: 'No results found.',
                             limit: 10,
                             fuzzy: true,
@@ -185,6 +185,38 @@
 <ul id="mysidebar" class="nav">
   <li class="sidebarTitle"> </li>
   
+  
+  
+  <li>
+      <a href="#">Site Map</a>
+      <ul>
+          
+          
+          
+          <li><a href="index.html">Home</a></li>
+          
+          
+          
+          
+          
+          
+          <li><a href="projects.html">Projects</a></li>
+          
+          
+          
+          
+          
+          
+          <li><a href="blog.html">Blog</a></li>
+          
+          
+          
+          
+      </ul>
+   </li>
+     
+      
+      
       <!-- if you aren't using the accordion, uncomment this block:
          <p class="external">
              <a href="#" id="collapseAll">Collapse All</a> | <a href="#" id="expandAll">Expand All</a>
@@ -201,49 +233,69 @@
 
         <!-- Content Column -->
         <div class="col-md-9" id="tg-sb-content">
-            <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
-
-    <header class="post-header">
-        <h1 class="post-title" itemprop="name headline">Sample post</h1>
-        <p class="post-meta"><time datetime="2016-02-26T00:00:00-08:00" itemprop="datePublished">Feb 26, 2016</time> /
-            
-            
-            
-            <a href="tag_news.html">news</a>, 
-            
-            
-            
-            
-            
-
-        </p>
+            <div class="post-header">
+   <h1 class="post-title-main">Blog</h1>
+</div>
 
 
-    </header>
 
-    <div class="post-content" itemprop="articleBody">
+<div class="post-content">
 
+   
+
+    
+
+  <div class="home">
+
+    <div class="post-list">
+
+    <section id="archive">
+        <h3>This year's posts</h3>
         
-        <div class="summary">This is some summary frontmatter for my sample post.</div>
         
+        <ul class="this">
+            
+            <li><time>26 Feb</time><a href="samplepost.html">Sample post</a></li>
+            
+        
+            
+            
+            
+            
+            <li><time>24 Feb</time><a href="myupdate.html">Welcome to Jekyll!</a></li>
+            
+        
+            
+            
+            
+        </ul>
+        <h3>2015</h3>
+        <ul class="past">
+            
+            
+            <li><time>12 Apr</time><a href="test-post-from-last-year.html">Test post from last year</a></li>
+            
+        </ul>
+    </section>
+    <hr/>
+    </div>
+</div>
 
-        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries</p>
 
-<h2 id="heading">Heading</h2>
-
-<p>but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-
-<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries</p>
-
-
+    <div class="tags">
+        
     </div>
 
+    
+    <a target="_blank" href="https://github.com/team4159/team4159.github.io/blob/master/pages/blog/blog_archive.md" class="btn btn-default githubEditButton" role="button"><i class="fa fa-github fa-lg"></i> Edit me</a>
+    
+
+    
 
 
-</article>
 
 
-
+</div>
 
 <hr class="shaded"/>
 

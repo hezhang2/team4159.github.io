@@ -1,167 +1,170 @@
 # This is your sidebar TOC. The sidebar code loops through sections here and provides the appropriate formatting.
 
 entries:
-  - title: sidebar
-    product: Content
-    folders:
+- title: sidebar
+  product: Content
+  folders:
+  - title:
+    output: pdf
+    type: frontmatter
+    folderitems:
     - title:
+      url: /titlepage.html
       output: pdf
       type: frontmatter
-      folderitems:
-      - title:
-        url: /titlepage.html
-        output: pdf
-        type: frontmatter
-      - title:
-        url: /tocpage.html
-        output: pdf
-        type: frontmatter
+    - title:
+      url: /tocpage.html
+      output: pdf
+      type: frontmatter
 
-    - title: General Programming
-      output: web, pdf
-      folderitems:
+  - title: General Programming
+    output: web, pdf
+    folderitems:
 
-      - title: Introduction
-        url: /main_general_programming_intro.html
-        output: web, pdf
-
-      - title: Java
-        url: /main_java.html
-        output: web, pdf
-
-      - title: OOP
-        url: /main_oop.html
-        output: web, pdf
-
-      - title: Command Line
-        url: /main_cl.html
-        output: web, pdf
-
-      - title: Git/Version Control
-        url: /main_git.html
-        output: web, pdf
-
-    - title: Robot Programming
-      output: web, pdf
-      folderitems:
-
-      - title: Introduction
-        url: /main_robot_programming_intro.html
-        output: web, pdf
-
-      - title: WPILib and Gradle
-        url: /main_wpilib.html
-        output: web, pdf
-
-      - title: Command Based Programming
-        url: /main_command_based_programming.html
-        output: web, pdf      
-
-    - title: Electronics
-      output: web, pdf
-      folderitems:
-
-      - title: Introduction
-        url: /main_electronics_intro.html
-        output: web, pdf
-
-      - title: Basic Theory
-        url: /main_basic_theory.html
-        output: web, pdf
-
-      - title: FRC Electronics
-        url: /main_frc_electronics.html
-        output: web, pdf
-
-      - title: Wiring and Good Practices
-        url: /main_wiring.html
-        output: web, pdf
-
-      - title: Sensors and Custom Electronics
-        url: /main_sensors.html
-        output: web, pdf
-
-    - title: Control Systems
-      output: web, pdf
-      folderitems:
-
-      - title: Introduction
-        url: /main_control_intro.html
-        output: web, pdf
-
-      - title: PID Control
-        url: /main_pid.html
-        output: web, pdf
-
-      - title: Vision Solutions
-        url: /main_vision.html
-        output: web, pdf
-
-      - title: Machine Learning
-        url: /main_ml.html
-        output: web, pdf
-
-    - title: Web Development
+    - title: Introduction
+      url: /main_general_programming_intro.html
       output: web, pdf
 
-      folderitems:
-      - title: Introduction
-        url: /main_web_intro.html
-        output: web, pdf
+    - title: Java
+      url: /main_java.html
+      output: web, pdf
 
-      - title: React.js and Other Libraries
-        url: /main_reactjs.html
-        output: web, pdf
+    - title: OOP
+      url: /main_oop.html
+      output: web, pdf
 
-      - title: Hybrid App Development
-        url: /main_hybrid_apps.html
-        output: web, pdf
+    - title: Command Line
+      url: /main_cl.html
+      output: web, pdf
 
-      - title: Squarespace
-        url: /main_squarespace.html
-        output: web, pdf     
+    - title: Git/Version Control
+      url: /main_git.html
+      output: web, pdf
 
-      - title: Jekyll
-        url: /main_jekyll.html
-        output: web, pdf     
+  - title: Robot Programming
+    output: web, pdf
+    folderitems:
 
-    - title: Tag archives
+    - title: Introduction
+      url: /main_robot_programming_intro.html
+      output: web, pdf
+
+    - title: WPILib and Gradle
+      url: /main_wpilib.html
+      output: web, pdf
+
+    - title: Command Based Programming
+      url: /main_command_based_programming.html
+      output: web, pdf      
+
+  - title: Electronics
+    output: web, pdf
+    folderitems:
+
+    - title: Introduction
+      url: /main_electronics_intro.html
+      output: web, pdf
+
+    - title: Basic Theory
+      url: /main_basic_theory.html
+      output: web, pdf
+
+    - title: FRC Electronics
+      url: /main_frc_electronics.html
+      output: web, pdf
+
+    - title: Wiring and Good Practices
+      url: /main_wiring.html
+      output: web, pdf
+
+    - title: Sensors and Custom Electronics
+      url: /main_sensors.html
+      output: web, pdf
+
+  - title: Control Systems
+    output: web, pdf
+    folderitems:
+
+    - title: Introduction
+      url: /main_control_intro.html
+      output: web, pdf
+
+    - title: PID Control
+      url: /main_pid.html
+      output: web, pdf
+
+    - title: Computer Vision
+      url: /main_vision.html
+      output: web, pdf
+
+    - title: Motion Profiling
+      url: /main_mp.html
+      output: web, pdf
+
+    - title: Machine Learning
+      url: /main_ml.html
+      output: web, pdf
+
+  - title: Web Development
+    output: web, pdf
+
+    folderitems:
+    - title: Introduction
+      url: /main_web_intro.html
+      output: web, pdf
+
+    - title: React.js and Other Libraries
+      url: /main_reactjs.html
+      output: web, pdf
+
+    - title: Hybrid App Development
+      url: /main_hybrid_apps.html
+      output: web, pdf
+
+    - title: Squarespace
+      url: /main_squarespace.html
+      output: web, pdf     
+
+    - title: Jekyll
+      url: /main_jekyll.html
+      output: web, pdf     
+
+  - title: Tag archives
+    output: web
+    folderitems:
+
+    - title: Tag archives overview
+      url: /main_tag_archives_overview.html
       output: web
-
-      folderitems:
-      - title: Tag archives overview
-        url: /main_tag_archives_overview.html
+      subfolders:
+      
+      - title: Tag archive pages
         output: web
-
-        subfolders:
-        - title: Tag archive pages
+        subfolderitems:
+        - title: Formatting pages
+          url: /tag_formatting.html
           output: web
-          subfolderitems:
 
-          - title: Formatting pages
-            url: /tag_formatting.html
-            output: web
+        - title: Navigation pages
+          url: /tag_navigation.html
+          output: web
 
-          - title: Navigation pages
-            url: /tag_navigation.html
-            output: web
+        - title: Content types pages
+          url: /tag_content_types.html
+          output: web
 
-          - title: Content types pages
-            url: /tag_content_types.html
-            output: web
+        - title: Publishing pages
+          url: /tag_publishing.html
+          output: web
 
-          - title: Publishing pages
-            url: /tag_publishing.html
-            output: web
+        - title: Special layout pages
+          url: /tag_special_layouts.html
+          output: web
 
-          - title: Special layout pages
-            url: /tag_special_layouts.html
-            output: web
+        - title: Collaboration pages
+          url: /tag_collaboration.html
+          output: web
 
-          - title: Collaboration pages
-            url: /tag_collaboration.html
-            output: web
-
-          - title: Troubleshooting pages
-            url: /tag_troubleshooting.html
-            output: web
+        - title: Troubleshooting pages
+          url: /tag_troubleshooting.html
+          output: web
