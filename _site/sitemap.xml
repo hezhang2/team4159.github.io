@@ -88,6 +88,12 @@
   
   
   <url>
+    <loc>http://localhost:4000/main_jekyll.html</loc>
+  </url>
+  
+  
+  
+  <url>
     <loc>http://localhost:4000/main_ml.html</loc>
   </url>
   
