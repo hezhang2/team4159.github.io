@@ -127,7 +127,7 @@ th {
     text-align: left;
 }
 table {
-    max-width: 90%;
+    max-width: 100%;
     margin-bottom: 20px;
     border: 1px solid #dedede;
 }
@@ -138,16 +138,17 @@ table > tfoot > tr > th,
 table > thead > tr > td,
 table > tbody > tr > td,
 table > tfoot > tr > td {
-    padding: 8px;
+    padding: 2px;
     line-height: 1.42857143;
     vertical-align: top;
     border-top: 1px solid #ddd;
+    background-color:whitesmoke;
 }
 table > thead > tr > th {
     vertical-align: bottom;
-    border-bottom: 2px solid #ddd;
+    border-bottom: 0px solid #ddd;
     text-transform: none;
-    background-color: #777;
+    background-color: white;
     color: white;
     text-align: left;
 }
@@ -158,7 +159,7 @@ table > caption + thead > tr:first-child > td,
 table > colgroup + thead > tr:first-child > td,
 table > thead:first-child > tr:first-child > td {
     border-top: 0;
-}
+    }
 
 table > tbody > tr:nth-of-type(odd) {
     background-color: #f9f9f9;
@@ -466,6 +467,18 @@ figcaption {
     max-width: 90%;
     margin-bottom:20px;
     font-style: italic;
+    color: gray;
+
+}
+
+em {
+
+    padding-bottom:12px;
+    padding-top:6px;
+    max-width: 90%;
+    margin-bottom:20px;
+    font-style: italic;
+    font-size:10px;
     color: gray;
 
 }
@@ -908,8 +921,7 @@ span.soft {
 
 @media only screen and (min-width: 900px), only screen and (min-device-width: 900px) {
     .col-md-9 img {
-        max-width: 700px;
-        max-height: 700px;
+        max-width: auto;
     }
 }
 
