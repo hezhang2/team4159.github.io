@@ -19,7 +19,7 @@ Let's take a look at the sensors we use in our FRC robots.
 
 ### 1. Encoders and Potentiometers
 
-Encoders and pots are both examples of rotary sensors - they measure rotation. They are they most commonly used sensors in our FRC robots. We can use encoders to measure the position of a rotating arm, flywheel speed, how much an elevator has been raised, and more.
+Encoders and pots are both examples of rotary sensors - they measure rotation. They are the most commonly used sensors in our FRC robots. We can use encoders to measure the position of a rotating arm, flywheel speed, how much an elevator has been raised, and more.
 
 Read [this article](http://frc-pdr.readthedocs.io/en/latest/motors/encoders.html) to learn the difference between absolute and relative (incremental) encoders.
 

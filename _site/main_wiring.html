@@ -4,7 +4,7 @@
     <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="test">
+<meta name="description" content="Wire with good practices to prevent sudden brownouts and comm drops">
 <meta name="keywords" content=" wiring, electronics">
 <title>Wiring for FRC | CardinalBotics Programming Portal</title>
 <link rel="stylesheet" href="css/syntax.css">
@@ -508,7 +508,7 @@
 <div class="post-content">
 
    
-    <div class="summary">test</div>
+    <div class="summary">Wire with good practices to prevent sudden brownouts and comm drops</div>
    
 
     
@@ -536,7 +536,32 @@ $('#toc').on('click', 'a', function() {
 
     
 
-  
+  <p>Read WPILib’s wiring guide <a href="https://wpilib.screenstepslive.com/s/currentCS/m/cs_hardware/l/144971-wiring-the-frc-control-system">here</a>, their recommended <a href="https://wpilib.screenstepslive.com/s/currentCS/m/cs_hardware/l/826661-wiring-best-practices">best practices</a>, then take a look at our notes below on our wiring standards.</p>
+
+<p>The most important power lines to pay attention to are Battery to Breaker to PDP, and PDP to VRM to Radio. Ensuring that these connections are intact will prevent your robot from voltage drops and losing communications in a cruicial competition match.</p>
+
+<h2 id="0-wires">0. Wires</h2>
+
+<p>Wire size is determined by its diameter and we use American wire gauge (AWG) as the unit. It uses an inverted logarithmic scale so as AWG decreases, wire diameter increases.</p>
+
+<p>(insert awg chart) (insert stranded/solid img)</p>
+
+<p>Wires come in <a href="https://learn.sparkfun.com/tutorials/working-with-wire/stranded-vs-solid">stranded or solid core</a>. When using the Weidmuller connectors, solid core is recommended. However for wires going up an elevator for example stranded wire would be advantageous.</p>
+
+<p>Read <a href="https://blog.muellerelectric.com/types-of-wire-insulation">this article</a> to learn about 3 different types of wire insulation: PVC, rubber, and silicone.</p>
+
+<p>For lower AWG wires such as the battery, try to use softer (rubber or silicone) wires. We have had problems in the past bending the wires but using softer ones would be much easier to work with.</p>
+
+<p>When buying wire,</p>
+
+<h2 id="1-battery-and-breaker">1. Battery and Breaker</h2>
+
+<p>Mount the battery lying flat, not upright, if at all possible. This will stablize your battery and lower the chances of it losing connection to the main breaker or PDP. You can tighten the power wires to be coming directly out of the battery, or at a 90 degree angle, depending on space restrictions.</p>
+
+<p>Tighten the nut on the main breaker as tight as possible. Then apply electrical tape over it to prevent any metal shavings from shorting it out.</p>
+
+<h2 id="2-pdp">2. PDP</h2>
+
 
 
     <div class="tags">
@@ -560,7 +585,7 @@ $('#toc').on('click', 'a', function() {
             <div class="row">
                 <div class="col-lg-12 footer">
                &copy;2018 FRC Team 4159 CardinalBotics. All rights reserved. <br />
- Site last generated: Jun 28, 2018 <br />
+ Site last generated: Jun 29, 2018 <br />
 <p><img src="images/company_logo.png" alt="Company logo"/></p>
                 </div>
             </div>
