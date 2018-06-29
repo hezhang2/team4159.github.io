@@ -65,17 +65,18 @@ Hall effect sensors can be used as a contactless limit switch. We recommend [thi
 
 ### 5. Other Not So Common Ones But Maybe Useful
 
-Being worked on...
-
-- Reed switches
-- IR sensors
-- Break beam sensor
-- LIDAR
-- Cameras in the Vision section
+- Ultrasonic
+- [Reed switches](http://www.clippard.com/cms/wiki/magnetic-reed-switches-position-location) (usually on pneumatic cylinders)
+- [IR sensors](https://learn.adafruit.com/ir-sensor/overview)
+- [Break beam sensor](https://learn.adafruit.com/ir-breakbeam-sensors?view=all)
+- [LIDAR](https://www.sparkfun.com/news/2435) (probably overkill)
+- Cameras in the [Vision section](/main-vision.html)
 
 ## Programming Sensors
 
-Being worked on...
+Take a look at WPILib's official [sensor section](https://wpilib.screenstepslive.com/s/currentCS/m/java/c/88895). They provide information and code examples on how to implement several sensors in your FRC robot.
+
+Reference the Talon SRX user guide and Phoenix Framework documentation to program CTRE sensors (SRX Mag Encoder, Talon Tach, etc.)
 
 ## Further Learning
 
