@@ -25,7 +25,7 @@ Read [this article](http://frc-pdr.readthedocs.io/en/latest/motors/encoders.html
 
 |![Quadrature](../../images/main/quadrature.jpg)|
 |:---:|
-|*Visual graph*|
+|*Are my edits even getting through??*|
 
 You might see the term _quadrature encoder_ tossed around a lot. All that means is that the encoder can tell you the speed and rotation of a shaft bidirectionally (both forwards and backwards). This is possible because they send output through two channels, A and B, which are out of phase by 90 degrees. The phase difference is what determines the directionality, and that's why the function to flip the direction of an encoder reading is called `setSensorPhase`. Also, if you use a breakout board with an encoder, you'll need to be careful about getting the second signal wire in the right pin.
 
