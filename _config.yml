@@ -110,5 +110,5 @@ sidebars:
 description: "FRC Team 4159 CardinalBotics' project documentation, references, and blog on FRC software, controls, and electronics"
 
 # needed for sitemap.xml file only
-url: https://team4159.github.io
+url: https://hezhang2.github.io/team4159.github.io
 baseurl:
